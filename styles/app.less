@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header-container {
+  padding: 19px 38px;
+  background-color: #000000;
+  font-size: 48px;
+  font-family: 'Lato';
+  font-weight:100;
+  color:#ffffff;
+}
+
+.content-container {
+  height:637px;
+  width:100%;
+  position:relative;
+}
+
+.content-container {
+
+  img {
+    width:100%;
+    transform: scale(-1, 1)
+  }
+
+  &__form-container {
+    position: absolute;
+    width:468px;
+    right:50px;
+    top:-65px;
+    background-color: white;
+    border:1px solid black;
+
+    &__form {
+      text-align: left;
+      width:370px;
+      margin: 0 auto;
+      font-size: 0px;
+
+      legend {
+        font-family: 'Lato';
+        font-size: 48px;
+        font-weight:300;
+        margin: 0px 0px 23px -16px;
+        padding-top: 24px;
+      }
+
+      label {
+        display:block;
+        margin: 0 auto;
+        width:100%;
+        font-size: 14px;
+        color: #a2a2af;
+        font-family: 'Lato';
+        font-size: 11px;
+        font-weight:100;
+      }
+
+      input,select {
+        text-align: left;
+        display: block;
+        margin-bottom: 20px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight:400;
+        border: none;
+        border-bottom: 1px solid grey;
+        padding: 15px 0px 20px;
+        outline:none;
+
+        &:hover {
+          border-color: #a60000;
+        }
+      }
+
+      input.longInput {
+        width:370px;
+        margin:0 auto 20px;
+      }
+
+      select.select__list {
+        width: 88px;
+      }
+
+      .displayInline {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .select__list {
+        margin-right: 24px;
+      }
+
+      .cityCodePart1Input {
+        width:52px;
+        margin-right: 30px;
+      }
+
+      .cityCodePart2Input {
+        width:58px;
+        margin-right: 20px;
+      }
+
+      .cityCodePart3Input {
+        width:210px;
+      }
+      .div-img-social {
+        display: inline-block;
+        vertical-align: top;
+        width: 48px;
+        height:48px;
+        border: 1px solid #dfdfe4;
+        text-align: center;
+        margin-right: 30px;
+        margin-top: 15px;
+        margin-bottom: 56px;
+
+        .img-Social {
+          height:22px;
+          width:22px;
+          margin-top: 12px;
+          transform: scale(1, 1)
+        }
+
+        &:hover {
+          border-color: #a60000;
+        }
+      }
+
+      .buttonSubmit {
+        position: absolute;
+        bottom: -26px;
+        right:36px;
+        border:none;
+        padding: 20px 90px 20px 34px;
+        background-color: #a60000;
+        color:#ffff;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight:800;
+      }
+
+    }
+  }
+}
